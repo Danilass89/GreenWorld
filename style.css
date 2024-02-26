@@ -3,34 +3,31 @@
 *{
     margin: 0;
     font-family: "Kode Mono", monospace;
-    background: whitesmoke;
 }
 
 
 .header-logo{
     width: 300px;
-
 }
 
-.header-controls{
-    
-    position: relative;
-    
-    
+.header-controls{    
+    position: relative;    
 }
+
+
 header{
     font-weight: 600;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .btn-header{
-    font-size: 30px;
+    font-size: 20px;
+    margin-right: 50px;
 }
 
 header a{ 
     margin-right: 25px;
-
-  
+    margin-right: 50px;
 }
 
 button {
@@ -41,23 +38,24 @@ button {
     cursor: pointer;
     box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
     padding: 12px;
-  }
+    transition: all 1s, ease-in 0.5s;
+}
 
 a{
     text-decoration: none;
     color: #213053; 
 }
 
+
 .conteinet-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px; 
-    
+    padding: 20px;     
 }
 
 .about-images{
-    width: 500px;
+    width: 700px;
     transform: scaleX(-1) 
 }
 
@@ -65,28 +63,24 @@ a{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 600px;
     padding-top: 120px;
     padding-bottom: 120px;
-    background: url('img/bg1.png') no-repeat;
+    background: url('img/bg1.png');
     background-position: center;
-    background-size: cover;
-    background-image:url(img/bg1.png ) ;
-
+    background-size: cover;    
 }
 
 .about button{
     font-size: 20px;
     border-radius: 20px;
-    margin-top: 20px;
-    
+    margin-top: 20px;    
 }
 
 .about-info p { 
-    font-size: 20px;
-    
+    font-size: 20px;    
     margin-top: 20px;
     margin-bottom: 20px;
-
 }
 
 .about-info h1{
@@ -97,4 +91,91 @@ a{
 
 .about-info {
     max-width: 550px;
+}
+
+
+.form-container {
+    width: 550px;
+}
+
+.form button{
+    margin-top: 20px;
+}
+
+.form{
+    background-color: #1D263A;
+    color: whitesmoke;
+    padding-top: 115px; padding-bottom: 115px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.form h1{
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+.form p{
+    font-size: 20px;
+    opacity: 0.65;
+}
+
+.form label{
+    margin-bottom: 10px;
+}
+
+.form input, option{
+    margin-bottom: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+
+select{
+    appearance: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.form option{
+    font-size: 20px;
+
+}
+
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form-form{
+
+    margin-top: 60px;
+    font-size: 20px;
+    font-weight: 400;
+    color: whitesmoke;
+
+}
+
+.form-btn{
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #f6980c;
+    box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
+    transition: all 1s , ease-in 0.5s;
+    
+}
+
+
+a:hover {
+    opacity: 0.8;
+   
 }
